@@ -18,4 +18,4 @@ venv/
 data/processed/embeddings/
 
 # FAISS index (optional)
-data/vector_store/
+#data/vector_store/
