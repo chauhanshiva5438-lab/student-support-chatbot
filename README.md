@@ -1,87 +1,83 @@
-# 🎓 Arizona State University Student Support Chatbot
+# 🎓 AI Student Support Chatbot
 
-An AI-powered Student Support Chatbot built using Retrieval-Augmented Generation (RAG). The chatbot answers student queries by retrieving relevant information from the Arizona State University Academic Catalog and generating accurate responses using Google's Gemini model.
+An AI-powered Student Support Chatbot built using Retrieval-Augmented Generation (RAG). The chatbot answers Arizona State University student queries using official university documents instead of relying only on a Large Language Model.
 
 ---
 
 ## 🚀 Features
 
-- RAG (Retrieval-Augmented Generation)
+- AI-powered question answering
+- Retrieval-Augmented Generation (RAG)
 - FAISS Vector Search
 - Sentence Transformers Embeddings
-- Google Gemini Integration
+- Google Gemini API
 - Streamlit Web Interface
-- Semantic Search
-- Context-based Question Answering
+- PDF + Website Knowledge Base
+- Fast Semantic Search
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack
 
 - Python
 - Streamlit
 - FAISS
 - Sentence Transformers
 - Google Gemini API
-- NumPy
-- JSON
+- Hugging Face
+- BeautifulSoup
+- PyMuPDF
 
 ---
 
 ## 📂 Project Structure
 
 ```
-student_support_chatbot/
+student-support-chatbot/
 │
 ├── app.py
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-├── .env
-│
-├── src/
-│   ├── rag_pipeline.py
-│   └── gemini_client.py
-│
-├── scripts/
-│   ├── create_embeddings.py
-│   ├── build_faiss.py
-│   └── ...
 │
 ├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── vector_store/
 │
-├── notebook/
-├── reports/
-└── images/
+├── scripts/
+│
+├── src/
+│
+└── screenshots/
 ```
 
 ---
 
-## ⚙ Installation
+## ⚙️ Installation
 
-Clone the repository:
+Clone the repository
 
 ```bash
-git clone <repository-url>
-cd student_support_chatbot
+git clone https://github.com/chauhanshiva5438-lab/student-support-chatbot.git
 ```
 
-Install dependencies:
+Go to project
+
+```bash
+cd student-support-chatbot
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Create a `.env` file:
+Create a .env file
 
-```env
+```
 GOOGLE_API_KEY=YOUR_API_KEY
 ```
 
-Run the application:
+Run the application
 
 ```bash
 streamlit run app.py
@@ -89,18 +85,50 @@ streamlit run app.py
 
 ---
 
-## 📚 Dataset
+## 📚 Knowledge Sources
 
-The chatbot uses the Arizona State University Academic Catalog as its knowledge base. The documents are processed into chunks, converted into embeddings using Sentence Transformers, indexed with FAISS, and queried during runtime.
+The chatbot uses:
+
+- Arizona State University Official Website
+- ASU Academic Catalog
+- Student Services
+- Tuition & Fees
+- Admissions
+- Financial Aid
+- Housing
+- Library
+- Career Services
+- Registration Guide
 
 ---
 
-## 📌 Future Improvements
+## 🤖 How it Works
 
-- Hybrid Search (BM25 + FAISS)
+1. Collect official university documents
+2. Clean and preprocess text
+3. Split documents into chunks
+4. Generate embeddings
+5. Store vectors in FAISS
+6. Retrieve relevant chunks
+7. Send retrieved context to Gemini
+8. Generate final answer
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots here)
+
+---
+
+## 🔮 Future Improvements
+
 - Conversation Memory
-- Multi-document Support
-- Citation Highlighting
+- Hybrid Search (BM25 + FAISS)
+- Better Reranking
+- Multi-University Support
+- Voice Assistant
+- Authentication
 - Admin Dashboard
 
 ---
