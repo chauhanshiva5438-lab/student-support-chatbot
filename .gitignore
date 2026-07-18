@@ -15,7 +15,7 @@ venv/
 .ipynb_checkpoints/
 
 # Embeddings (optional)
-data/processed/embeddings/
+#data/processed/embeddings/
 
 # FAISS index (optional)
 #data/vector_store/
