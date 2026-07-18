@@ -117,9 +117,17 @@ The chatbot uses:
 
 ## 📸 Screenshots
 
-(Add screenshots here)
+### Home Page
 
----
+![Home](screenshots/home.png)
+
+### Chat Example
+
+![Chat](screenshots/chat.png)
+
+### Another Example
+
+![Example](screenshots/example.png)
 
 ## 🔮 Future Improvements
 
