@@ -1,0 +1,13 @@
+id,type,name,source,status
+1,PDF,ASU General Catalog,data/raw/pdfs/asu_general_catalog.pdf,ready
+2,WEB,Admissions,https://admission.asu.edu,pending
+3,WEB,Apply,https://admission.asu.edu/apply,pending
+4,WEB,Academic Calendar,https://registrar.asu.edu/academic-calendar,pending
+5,WEB,Registration Guide,https://registrar.asu.edu/registration-and-tuition-payment-guides,pending
+6,WEB,Tuition & Fees,https://catalog.asu.edu/tuitionandfees,pending
+7,WEB,Housing,https://housing.asu.edu,pending
+8,WEB,Library,https://lib.asu.edu,pending
+9,WEB,International Students,https://issc.asu.edu,pending
+10,WEB,Financial Aid,https://tuition.asu.edu/financial-aid,pending
+11,WEB,Career Services,https://career.asu.edu,pending
+12,WEB,Student Services,https://eoss.asu.edu,pending
